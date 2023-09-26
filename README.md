@@ -1,15 +1,8 @@
-## Getting Started
+## Create a Loyalty Program NFT YouTube Tutorial
 
-Create a project using this example:
+[Create a loyalty program NFT - Upgradable metadata](https://youtu.be/SB4q3FHA1bE)
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+Learn how to create a loyalty card NFT using thirdweb's Loyalty Card contract. With this contract you have the ability to update the NFT's metadata and utilize this for features like loyalty points, tiers, or even update the NFT image metadata.
 
 ## Environment Variables
 

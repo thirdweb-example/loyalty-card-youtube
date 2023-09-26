@@ -3,6 +3,11 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .gradientText0 {
@@ -142,4 +147,58 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+  border-radius: 10px;
+  padding: 2rem;
+  min-width: 440px;
+  overflow: none;
+  border: none;
+}
+
+.loyaltyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 40px;
+  max-width: 440px;
+  overflow: none;
+  border: none;
+  position: relative;
+}
+.loyaltyCardPoints {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #333;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+} 
+
+.updatePointsBtn {
+  position: absolute;
+  bottom: 0;
+  background-color: #131313;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }

@@ -1,0 +1,1 @@
+export const LOYALTY_CARD_CONTRACT_ADDRESS = "Your contract address here";
