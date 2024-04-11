@@ -10,7 +10,7 @@ export default async function updateLoyaltyCard(
     try {
         const sdk = ThirdwebSDK.fromPrivateKey(
             process.env.PRIVATE_KEY as string,
-            "mumbai",
+            "<chain_id>",
             {
                 clientId: process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID as string,
             }

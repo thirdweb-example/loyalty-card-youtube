@@ -17,7 +17,7 @@ export default async function handler(
 
         const sdk = ThirdwebSDK.fromPrivateKey(
             process.env.PRIVATE_KEY as string,
-            "mumbai",
+            "<chain_id>",
             {
                 secretKey: process.env.SECRET_KEY as string,
             }
